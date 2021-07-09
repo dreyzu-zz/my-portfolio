@@ -1,32 +1,32 @@
 {
-  "name": "my-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@chakra-ui/icons": "^1.0.13",
-    "@chakra-ui/react": "^1.6.3",
-    "@chakra-ui/theme": "^1.9.0",
-    "@emotion/react": "^11.4.0",
-    "@emotion/styled": "^11.3.0",
-    "@fontsource/nanum-pen-script": "^4.4.5",
-    "@fontsource/nunito-sans": "^4.4.5",
-    "@fontsource/open-sans": "^4.4.5",
-    "@fontsource/permanent-marker": "^4.4.5",
-    "@fontsource/raleway": "^4.4.5",
-    "@fontsource/rubik": "^4.4.5",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "framer-motion": "^4.1.17",
-    "next": "10.2.3",
-    "nodemailer": "^6.6.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-icons": "^4.2.0",
-    "typewriter-effect": "^2.18.0"
-  }
+    "name": "my-portfolio",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@chakra-ui/icons": "^1.0.13",
+        "@chakra-ui/react": "^1.6.3",
+        "@chakra-ui/theme": "^1.9.0",
+        "@emotion/react": "^11.4.0",
+        "@emotion/styled": "^11.3.0",
+        "@fontsource/nanum-pen-script": "^4.4.5",
+        "@fontsource/nunito-sans": "^4.4.5",
+        "@fontsource/open-sans": "^4.4.5",
+        "@fontsource/permanent-marker": "^4.4.5",
+        "@fontsource/raleway": "^4.4.5",
+        "@fontsource/rubik": "^4.4.5",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "framer-motion": "^4.1.17",
+        "next": "10.2.3",
+        "nodemailer": "^6.6.2",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-icons": "^4.2.0",
+        "typewriter-effect": "^2.18.0"
+    }
 }
