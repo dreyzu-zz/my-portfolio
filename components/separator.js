@@ -11,7 +11,7 @@ export const Separator = () => {
     return (
         <Center h="450px">
             <Image
-                src="./public/images/squiggle.svg"
+                src="../public/images/squiggle.svg"
                 w="400px"
                 h="200px"
                 margin="50px"
