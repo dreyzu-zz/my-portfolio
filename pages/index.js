@@ -3,9 +3,9 @@ import {
     useColorModeValue,
     Box,
     Stack,
-    Image,
-    Center,
+    extendTheme,
 } from "@chakra-ui/react";
+import { createBreakpoints } from "@chakra-ui/theme-tools";
 import { HeaderComponent } from "../components/header";
 import { ProfileContainer } from "../components/profile";
 import { ProjectContainer } from "../components/projects";
@@ -13,11 +13,14 @@ import { Separator } from "../components/separator";
 import { Contact } from "../components/contact";
 import { FooterContainer } from "../components/footer";
 
+const breakpoints = createBreakpoints({
+    sm: "320px",
+    md: "850px",
+});
+const theme = extendTheme({ breakpoints });
+
 function HomePage() {
     const { toggleColorMode } = useColorMode();
-    const formBackground = useColorModeValue("gray.100", "gray.700");
-    const inputBackground = useColorModeValue("gray.200", "gray.600");
-    const svgColor = useColorModeValue("orange.400", "orange.600");
     return (
         <Stack>
             <Box>
