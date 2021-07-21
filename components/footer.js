@@ -1,6 +1,6 @@
 import { VStack, Center, HStack, Link, Icon } from "@chakra-ui/react";
 import React from "react";
-import { ImGithub, ImLinkedin } from "react-icons/im";
+import { ImGithub, ImLinkedin, ImTwitter } from "react-icons/im";
 
 export const FooterContainer = () => {
     return (
@@ -12,6 +12,9 @@ export const FooterContainer = () => {
                 </Link>
                 <Link href="https://www.linkedin.com/in/tristan-derez">
                     <Icon as={ImLinkedin} boxSize={12} />
+                </Link>
+                <Link href="https://twitter.com/doreizu">
+                    <Icon as={ImTwitter} boxSize={12} />
                 </Link>
             </HStack>
         </VStack>
